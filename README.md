@@ -20,3 +20,26 @@ This project is an interactive HR Analytics Dashboard developed using Power BI. 
 - Gender and Department Slicers
 
 ## Dashboard Preview
+
+![HR Analytics Dashboard](Dashboard_Output.png)
+
+## DAX Measures
+
+```DAX
+Total Employees = COUNT(Employee[Employee_ID])
+
+Average Salary = AVERAGE(Employee[Salary])
+
+Average Experience = AVERAGE(Employee[Experience])
+
+Maximum Salary = MAX(Employee[Salary])
+```
+
+## Skills Demonstrated
+
+- Power BI
+- DAX
+- Data Visualization
+- Dashboard Design
+- Business Intelligence
+- Interactive Reporting
